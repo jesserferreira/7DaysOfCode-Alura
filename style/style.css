@@ -67,6 +67,7 @@ button#signUp {
   background-color: var(--main-color);
   color: #FFF;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
+  justify-content: end;
 }
 
 header {
@@ -112,7 +113,7 @@ header {
   margin: auto;
   justify-content: space-around;
   text-align: start;
-  width: 280px;
+  width: 15rem;
 }
 
 .sobre-dados {
@@ -128,7 +129,7 @@ header {
   font-size: 60px;
   font-weight: 600;
   line-height: 72px;
-  position: static;
+  
 }
 
 .dados h4 {
@@ -160,11 +161,12 @@ header {
 .group {
   border-radius: 5px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  width: 95%;
 }
 
 .headline {
   color: var(--main-color);
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 20px;
   background: rgba(142, 36, 36, 0.05);
@@ -175,7 +177,7 @@ header {
 
 .vagas-talentos h2 {
   color: var(--sub-title);
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
   margin: 16px 0;
   line-height: 44px;
@@ -183,7 +185,7 @@ header {
 
 .vagas-talentos p {
   color: var(--text-color);
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   height: 30px;
@@ -196,7 +198,7 @@ header {
   flex-direction: column;
   padding: 10px; 
   align-items: center;
-
+  margin: 5rem;
 }
 
 .box {
@@ -265,9 +267,9 @@ header {
 .collaborator {
   color: var(--sub-title);
   font-weight: 500;
-  font-size: 30px;
-  line-height: 44px;
-  max-width: 70%;
+  font-size: 24px;
+  line-height: 24px;
+  max-width: 90%;
 }
 
 .avatar {
@@ -351,3 +353,19 @@ input {
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
 }
 
+@media screen and (max-width: 1360px) {
+  header .sobre-dados .dados {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .talentos {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: px) {
+
+}
