@@ -58,9 +58,15 @@ button {
   justify-content: flex-end;
 }
 
+button#signUp:hover {
+  background-color: #dd1f1f;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
+}
+
 button#signUp {
   background-color: var(--main-color);
   color: #FFF;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
 }
 
 header {
@@ -290,16 +296,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-footer {
+  padding: 5rem;
   background-color:  #F9FAFB;
   margin: 5rem;
-  padding: 1.5rem;
 }
 
 footer h2 {
   padding: 1rem;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 form {
@@ -313,9 +319,22 @@ footer input {
   margin: 12px;
 }
 
+footer p {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer span {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
 input {
   width: 20rem;
   border: 1px solid #D0D5DD;
+  font-size: 16px;
 }
 
 .signUp {
@@ -326,3 +345,9 @@ input {
   line-height: 24px;
   padding: 0.5rem;
 }
+
+.signUp:hover {
+  background-color: #dd1f1f;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.459);
+}
+
